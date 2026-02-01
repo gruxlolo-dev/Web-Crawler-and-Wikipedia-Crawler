@@ -15,7 +15,7 @@ copies or substantial portions of the Software.
 
 This software may only be used in open source projects.
 
-Project URL: [Project URL]
+Project URL: [https://github.com/gruxlolo-dev/Web-Crawler-and-Wikipedia-Crawler]
 Creator: [gruxlolo-dev]
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
