@@ -1,0 +1,55 @@
+User-agent: *
+Allow: /w/
+Allow: /api.php?action=mobileview&
+Allow: /api.php?action=query&
+Allow: /api.php?action=parse&
+Allow: /api.php?action=opensearch&
+Allow: /api.php?action=feedcontributions&
+Allow: /api.php?action=featuredfeed&
+Allow: /api.php?action=rsd&
+Allow: /api.php?format=json&
+
+# Disallow high-load API queries
+Disallow: /api.php?action=query&list=allpages&
+Disallow: /api.php?action=query&list=alllinks&
+Disallow: /api.php?action=query&list=allcategories&
+Disallow: /api.php?action=query&list=allusers&
+Disallow: /api.php?action=query&list=backlinks&
+Disallow: /api.php?action=query&list=categorymembers&
+Disallow: /api.php?action=query&list=embeddedin&
+Disallow: /api.php?action=query&list=imageusage&
+Disallow: /api.php?action=query&list=search&
+Disallow: /api.php?action=query&list=watchlist&
+Disallow: /api.php?action=query&list=recentchanges&
+Disallow: /api.php?action=query&prop=revisions&
+Disallow: /api.php?action=query&prop=links&
+Disallow: /api.php?action=query&prop=templates&
+
+# Disallow special pages
+Disallow: /Special:
+Disallow: /wiki/Special:
+Disallow: /w/index.php?title=Special:
+
+# Disallow old revisions
+Disallow: /w/index.php?title=*&oldid=
+Disallow: /wiki/*&oldid=
+Disallow: /w/index.php?title=*&diff=
+Disallow: /wiki/*&diff=
+
+# Disallow action pages
+Disallow: /w/index.php?title=*&action=
+Disallow: /wiki/*&action=
+
+# Disallow user pages
+Disallow: /wiki/User:
+Disallow: /w/index.php?title=User:
+
+# Disallow file pages
+Disallow: /wiki/File:
+Disallow: /w/index.php?title=File:
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://www.wikipedia.org/sitemap.xml
